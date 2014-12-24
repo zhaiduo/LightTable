@@ -1,0 +1,49 @@
+/*
+http://lesscss.org/ dark theme
+Ported to lesser-dark by Adam zhaiduo.com
+*/
+#multi.theme-adam-dark .content { background: #262626; }
+#multi.theme-adam-dark .list .active, #multi.theme-adam-dark .list li:hover { background:#262626; color:#EBEFE7; }
+#multi.theme-adam-dark .list .dirty { color:#599eff; }
+
+.cm-s-adam-dark {
+  line-height: 1.3em;
+}
+.cm-s-adam-dark {
+}
+
+.cm-s-adam-dark.CodeMirror { background: #262626; color: #EBEFE7; }
+.cm-s-adam-dark div.CodeMirror-selected {background: #45443B !important;} /* 33322B*/
+.cm-s-adam-dark .CodeMirror-cursor { border-left: 1px solid white !important; }
+
+.cm-s-adam-dark.CodeMirror span.CodeMirror-matchingbracket { color: #7EFC7E; }/*65FC65*/
+
+.cm-s-adam-dark .CodeMirror-gutters { background: #262626; border-right:1px solid #aaa; }
+.cm-s-adam-dark .CodeMirror-linenumber { color: #777; }
+
+.cm-s-adam-dark span.cm-keyword { color: #a2c362; }
+.cm-s-adam-dark span.cm-atom { color: #C2B470; }
+.cm-s-adam-dark span.cm-number { color: #B35E4D; }
+.cm-s-adam-dark span.cm-def {color: white;}
+.cm-s-adam-dark span.cm-variable { color:#D9BF8C; }
+.cm-s-adam-dark span.cm-variable-2 { color: #669199; }
+.cm-s-adam-dark span.cm-variable-3 { color: white; }
+.cm-s-adam-dark span.cm-property {color: #92A75C;}
+.cm-s-adam-dark span.cm-operator {color: #92A75C;}
+.cm-s-adam-dark span.cm-comment { color: #9c9c9c; }
+.cm-s-adam-dark span.cm-string { color: #BCD279; }
+.cm-s-adam-dark span.cm-string-2 {color: #f50;}
+.cm-s-adam-dark span.cm-meta { color: #738C73; }
+.cm-s-adam-dark span.cm-error { color: #9d1e15; }
+.cm-s-adam-dark span.cm-qualifier {color: #888;}
+.cm-s-adam-dark span.cm-builtin { color: #ff9e59; }
+.cm-s-adam-dark span.cm-bracket { color: #EBEFE7; }
+.cm-s-adam-dark span.cm-tag { color: #669199; }
+.cm-s-adam-dark span.cm-attribute {color: #ffec32;}
+.cm-s-adam-dark span.cm-header {color: #a0a;}
+.cm-s-adam-dark span.cm-quote {color: #090;}
+.cm-s-adam-dark span.cm-hr {color: #999;}
+.cm-s-adam-dark span.cm-link {color: #00c;}
+
+.cm-s-adam-dark .CodeMirror-activeline-background {background: #3C3A3A !important;}
+.cm-s-adam-dark .CodeMirror-matchingbracket {outline:1px solid grey; color:white !important;}
